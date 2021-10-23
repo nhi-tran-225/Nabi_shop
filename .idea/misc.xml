@@ -3,23 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/address.xml" value="0.12702702702702703" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/address_add.xml" value="0.12702702702702703" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/drawable_shape.xml" value="0.12575250836120402" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/edit.xml" value="0.12575250836120402" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_add.xml" value="0.12702702702702703" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_back.xml" value="0.12575250836120402" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_map.xml" value="0.12702702702702703" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_next.xml" value="0.12575250836120402" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_phone_.xml" value="0.12575250836120402" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_sg.xml" value="0.12702702702702703" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/line.xml" value="0.12702702702702703" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/font/font.xml" value="0.18333333333333332" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_address.xml" value="0.16666666666666666" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_address_add.xml" value="0.1" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_information.xml" value="0.16666666666666666" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_information2.xml" value="0.11655405405405406" />
-        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Andoid/MyApplication/app/src/main/res/drawable/button_bg.xml" value="0.25833333333333336" />
+        <entry key="..\:/Andoid/MyApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Andoid/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/bogoc.xml" value="0.2755208333333333" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/btn.xml" value="0.2755208333333333" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/color.xml" value="0.2755208333333333" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/line.xml" value="0.2755208333333333" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/payment1.xml" value="0.2755208333333333" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/payment2.xml" value="0.2755208333333333" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/wishlist.xml" value="0.2755208333333333" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_payment.xml" value="0.24818840579710144" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_wishlist.xml" value="0.2" />
       </map>
     </option>
   </component>
@@ -28,12 +24,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.16666666666666666" />
-      </ProjectState>
-    </option>
   </component>
 </project>

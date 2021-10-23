@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".wishlist"
     android:background="@color/backgr_1"
     android:orientation="vertical">
-
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -30,18 +29,17 @@
             android:layout_height="match_parent"
             android:fontFamily="@font/lobsterregular"
             android:gravity="center"
-            android:text="Profile"
+            android:text="Wishlist"
             android:textColor="@color/cam"
             android:textSize="40dp" />
     </LinearLayout>
-
     <FrameLayout
         android:id="@+id/so1"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_below="@+id/header"
-        android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:background="@drawable/bogoc">
 
@@ -86,68 +84,22 @@
             android:layout_gravity="center|right"
             android:src="@drawable/next" />
     </FrameLayout>
+
     <FrameLayout
         android:id="@+id/so3"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_below="@+id/so2"
-        android:background="@drawable/bogoc"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp">
-        <TextView
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:text="Payment"
-            android:textColor="@color/cam"
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_gravity="center|left"/>
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/next"
-            android:layout_gravity="center|right"/>
-    </FrameLayout>
-    <FrameLayout
-        android:id="@+id/so4"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_below="@+id/so3"
-        android:background="@drawable/bogoc"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp">
-        <TextView
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:text="Wishlist"
-            android:textColor="@color/cam"
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_gravity="center|left"/>
-        <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:src="@drawable/next"
-            android:layout_gravity="center|right"/>
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/so5"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_below="@+id/so4"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/bogoc">
 
         <TextView
             android:layout_width="150dp"
             android:layout_height="30dp"
             android:layout_gravity="center|left"
-            android:text="Setting"
+            android:text="Payment"
             android:textColor="@color/cam"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -157,6 +109,80 @@
             android:layout_height="35dp"
             android:layout_gravity="center|right"
             android:src="@drawable/next" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/so4"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_below="@id/so3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/wishlist">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="125dp"
+            android:src="@drawable/anh1"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Cardigan"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center|top"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="đ 230.000"
+            android:textSize="18dp"
+            android:textColor="@color/cam"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center|top"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Color"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center|bottom"/>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/color"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center|bottom"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Size"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"
+            android:layout_gravity="center|bottom"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="M"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="155dp"
+            android:layout_gravity="center|bottom"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ellipsis"
+            android:layout_gravity="right|top"/>
     </FrameLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -171,7 +197,7 @@
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
-                android:src="@drawable/sao2"/>
+                android:src="@drawable/sao1"/>
         </FrameLayout>
         <FrameLayout
             android:layout_width="103dp"
@@ -198,7 +224,7 @@
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
-                android:src="@drawable/user"/>
+                android:src="@drawable/user2"/>
         </FrameLayout>
     </LinearLayout>
 </RelativeLayout>

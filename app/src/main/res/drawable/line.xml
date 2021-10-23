@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item>
         <shape
             android:shape="rectangle">
-            <stroke android:width="7dp" android:color="#F0923B" />
-            <solid android:color="#E5E5E5" />
+            <stroke android:width="7dp" android:color="@color/cam" />
+            <solid android:color="@color/backgr_1" />
 
         </shape>
     </item>
-
     <item
         android:top="7dp" >
         <shape
             android:shape="rectangle">
             <stroke
                 android:width="7dp"
-                android:color="#E5E5E5" />
+                android:color="@color/backgr_1" />
             <solid
-                android:color="#E5E5E5" />
+                android:color="@color/backgr_1" />
         </shape>
     </item>
 </layer-list>
