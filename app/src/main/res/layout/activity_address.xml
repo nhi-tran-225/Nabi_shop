@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    tools:context=".Address">
+
+    <TextView
+        android:id="@+id/tvaddress"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginRight="30dp"
+        android:drawableStart="@drawable/ic_back"
+        android:drawablePadding="40dp"
+        android:fontFamily="@font/lobsterregular"
+        android:text="Address"
+        android:textColor="#F0932B"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tvaddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/address"
+        android:drawableStart="@drawable/ic_map"
+        android:drawableEnd="@drawable/ic_next"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="48 Cao Thắng, Hải Châu, Đà Nẵng"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address2"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/address1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/address"
+        android:drawableStart="@drawable/ic_map"
+        android:drawableEnd="@drawable/ic_next"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="26 Thanh Sơn, Hải Châu, Đà Nẵng"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address3"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/address2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/address"
+        android:drawableStart="@drawable/ic_map"
+        android:drawableEnd="@drawable/ic_next"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="Sơn Tùng, Quảng Tùng, Quảng Trạch,Quảng Bình "
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="343dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/address3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/address_add"
+        android:drawableEnd="@drawable/ic_add"
+        android:drawablePadding="100dp"
+        android:hint="Add"
+        android:paddingRight="20dp"
+        android:textColorHint="#F0923B"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/line"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="103dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sao"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="103dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/giohang"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="103dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/nguoi"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="103dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/shopping" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

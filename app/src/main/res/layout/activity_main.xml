@@ -1,384 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:background="@color/backgr_1">
+    android:background="#E5E5E5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvsignup"
+        android:layout_width="185dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="120dp"
+        android:fontFamily="@font/lobsterregular"
+        android:text="Sign up"
+        android:textColor="#F0932B"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="358dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/tvsignup"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/ic_phone_"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/lobsterregular"
+        android:hint="Phone number"
+        android:paddingLeft="10dp"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edtusername"
+        android:layout_width="358dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/edtPhone"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/lobsterregular"
+        android:hint="User name"
+        android:paddingLeft="10dp"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edtpasword"
+        android:layout_width="358dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/edtusername"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/lobsterregular"
+        android:hint="Pass word"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:drawableStart="@drawable/ic_lock"
+        android:background="@drawable/edit"
+        android:paddingLeft="10dp"
+        android:drawablePadding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtcfpasword"
+        android:layout_width="358dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/edtpasword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/lobsterregular"
+        android:hint="Confirm Pass word"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:drawableStart="@drawable/ic_lock"
+        android:background="@drawable/edit"
+        android:paddingLeft="10dp"
+        android:drawablePadding="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="177dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/edtcfpasword"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="130dp"
+        android:background="@drawable/drawable_shape"
+        android:backgroundTint="#F0932B"
+        android:drawableEnd="@drawable/ic_sg"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="SIGN UP"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
 
     <LinearLayout
-        android:id="@+id/header"
+
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:background="@color/backgr_1"
-        android:orientation="horizontal"
-        android:layout_alignParentTop="true">
-
-        <FrameLayout
-            android:layout_width="85dp"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center"
-                android:src="@drawable/danh_muc" />
-        </FrameLayout>
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal">
 
         <TextView
-            android:layout_width="240dp"
-            android:layout_height="match_parent"
-            android:fontFamily="@font/lobsterregular"
-            android:gravity="center"
-            android:text="@string/tieude1"
-            android:textColor="@color/cam"
-            android:textSize="40dp" />
+            android:id="@+id/tv"
+            android:layout_width="235dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Already have a account?"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-        <FrameLayout
+        <TextView
+            android:id="@+id/tvsignin"
             android:layout_width="85dp"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center"
-                android:src="@drawable/tim_kiem" />
-        </FrameLayout>
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:paddingLeft="5dp"
+            android:text="Sign up"
+            android:textColor="#F0932B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
-    <ScrollView
-        android:id="@+id/sanpham"
-        android:layout_width="match_parent"
-        android:layout_height="690dp"
-        android:layout_below="@+id/header">
-
-        <GridLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginTop="5dp"
-            android:background="@color/backgr_1">
-
-            <FrameLayout
-                android:layout_width="175dp"
-                android:layout_height="350dp"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/customborder">
-
-                <ImageView
-                    android:layout_width="156dp"
-                    android:layout_height="250dp"
-                    android:src="@drawable/anh1" />
-
-                <TextView
-                    android:layout_width="156dp"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="250dp"
-                    android:text="Girl trendy sweater"
-                    android:textColor="@color/black"
-                    android:textSize="18dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="85dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="300dp"
-                        android:text="đ 310.000"
-                        android:textColor="@color/cam"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="71dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="305dp"
-                        android:text="@string/line1"
-                        android:textColor="@color/gia_cu"
-                        android:textSize="14dp" />
-                </LinearLayout>
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="175dp"
-                android:layout_height="350dp"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/customborder">
-
-                <ImageView
-                    android:layout_width="156dp"
-                    android:layout_height="250dp"
-                    android:src="@drawable/anh2" />
-
-                <TextView
-                    android:layout_width="156dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="250dp"
-                    android:text="Balbina Blouse and Dress"
-                    android:textColor="@color/black"
-                    android:textSize="18dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="85dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="300dp"
-                        android:text="đ 350.000"
-                        android:textColor="@color/cam"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="71dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="305dp"
-                        android:text="@string/line2"
-                        android:textColor="@color/gia_cu"
-                        android:textSize="14dp" />
-                </LinearLayout>
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="175dp"
-                android:layout_height="350dp"
-                android:layout_row="1"
-                android:layout_column="0"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/customborder">
-
-                <ImageView
-                    android:layout_width="156dp"
-                    android:layout_height="250dp"
-                    android:src="@drawable/anh3" />
-
-                <TextView
-                    android:layout_width="156dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="250dp"
-                    android:text="Girly classy clothes aesthetic"
-                    android:textColor="@color/black"
-                    android:textSize="18dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="85dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="300dp"
-                        android:text="đ 220.000"
-                        android:textColor="@color/cam"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="71dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="305dp"
-                        android:text="@string/line3"
-                        android:textColor="@color/gia_cu"
-                        android:textSize="14dp" />
-                </LinearLayout>
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="175dp"
-                android:layout_height="350dp"
-                android:layout_row="1"
-                android:layout_column="1"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/customborder">
-
-                <ImageView
-                    android:layout_width="156dp"
-                    android:layout_height="250dp"
-                    android:src="@drawable/anh4" />
-
-                <TextView
-                    android:layout_width="156dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="250dp"
-                    android:text="Converse chuck taylor all star"
-                    android:textColor="@color/black"
-                    android:textSize="18dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="85dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="300dp"
-                        android:text="đ 550.000"
-                        android:textColor="@color/cam"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="71dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="305dp"
-                        android:text="@string/line4"
-                        android:textColor="@color/gia_cu"
-                        android:textSize="14dp" />
-                </LinearLayout>
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="175dp"
-                android:layout_height="350dp"
-                android:layout_row="2"
-                android:layout_column="1"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/customborder">
-
-                <ImageView
-                    android:layout_width="156dp"
-                    android:layout_height="250dp"
-                    android:src="@drawable/anh4" />
-
-                <TextView
-                    android:layout_width="156dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="250dp"
-                    android:text="Converse chuck taylor all star"
-                    android:textColor="@color/black"
-                    android:textSize="18dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="85dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="300dp"
-                        android:text="đ 550.000"
-                        android:textColor="@color/cam"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="71dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="305dp"
-                        android:text="@string/line4"
-                        android:textColor="@color/gia_cu"
-                        android:textSize="14dp" />
-                </LinearLayout>
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="175dp"
-                android:layout_height="350dp"
-                android:layout_row="2"
-                android:layout_column="0"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/customborder">
-
-                <ImageView
-                    android:layout_width="156dp"
-                    android:layout_height="250dp"
-                    android:src="@drawable/anh4" />
-
-                <TextView
-                    android:layout_width="156dp"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="250dp"
-                    android:text="Converse chuck taylor all star"
-                    android:textColor="@color/black"
-                    android:textSize="18dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="85dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="300dp"
-                        android:text="đ 550.000"
-                        android:textColor="@color/cam"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="71dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="305dp"
-                        android:text="@string/line4"
-                        android:textColor="@color/gia_cu"
-                        android:textSize="14dp" />
-                </LinearLayout>
-            </FrameLayout>
-        </GridLayout>
-    </ScrollView>
-    <LinearLayout
-        android:id="@+id/bar"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/line"
-        android:orientation="horizontal"
-        android:layout_below="@id/sanpham">
-        <FrameLayout
-            android:layout_width="103dp"
-            android:layout_height="match_parent">
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center"
-                android:src="@drawable/sao2"/>
-        </FrameLayout>
-        <FrameLayout
-            android:layout_width="103dp"
-            android:layout_height="match_parent">
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center"
-                android:src="@drawable/bag1"/>
-        </FrameLayout>
-        <FrameLayout
-            android:layout_width="103dp"
-            android:layout_height="match_parent">
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center"
-                android:src="@drawable/giohang2"/>
-        </FrameLayout>
-        <FrameLayout
-            android:layout_width="103dp"
-            android:layout_height="match_parent">
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center"
-                android:src="@drawable/user2"/>
-        </FrameLayout>
-    </LinearLayout>
 </RelativeLayout>

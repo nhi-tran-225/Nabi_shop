@@ -1,34 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pnhi.nabi_shop">
+    package="com.example.nabi_linh">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Nabi Shop"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Nabi_Shop">
+        android:theme="@style/Theme.Nabi_Linh">
         <activity
-            android:name=".shoes"
-            android:exported="true" />
-        <activity
-            android:name=".Dress"
-            android:exported="true" />
-        <activity
-            android:name=".pants"
-            android:exported="true" />
-        <activity
-            android:name=".shirt"
-            android:exported="true" />
-        <activity
-            android:name=".danhmuc"
-            android:exported="true" />
+            android:name=".Address_add"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/customborder" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Address"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Information"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -3,17 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/drawable/botrondm.xml" value="0.2755208333333333" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/drawable/customborder.xml" value="0.2755208333333333" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/drawable/line.xml" value="0.2755208333333333" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/font/font.xml" value="0.28958333333333336" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/layout/activity_danhmuc.xml" value="0.152" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/layout/activity_dress.xml" value="0.16824324324324325" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/layout/activity_main.xml" value="0.152" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/layout/activity_pants.xml" value="0.16824324324324325" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/layout/activity_shirt.xml" value="0.16824324324324325" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/layout/activity_shoes.xml" value="0.16824324324324325" />
-        <entry key="..\:/THAndroid/Nabi_Shop/app/src/main/res/xml/customborder.xml" value="0.259375" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/address.xml" value="0.12702702702702703" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/address_add.xml" value="0.12702702702702703" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/drawable_shape.xml" value="0.12575250836120402" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/edit.xml" value="0.12575250836120402" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_add.xml" value="0.12702702702702703" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_back.xml" value="0.12575250836120402" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_map.xml" value="0.12702702702702703" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_next.xml" value="0.12575250836120402" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_phone_.xml" value="0.12575250836120402" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/ic_sg.xml" value="0.12702702702702703" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/drawable/line.xml" value="0.12702702702702703" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/font/font.xml" value="0.18333333333333332" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_address.xml" value="0.16666666666666666" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_address_add.xml" value="0.1" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_information.xml" value="0.16666666666666666" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_information2.xml" value="0.11655405405405406" />
+        <entry key="..\:/andr/Nabi_Linh/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -22,5 +28,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16666666666666666" />
+      </ProjectState>
+    </option>
   </component>
 </project>
