@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pnhi.nabi_shop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Nabi Shop"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nabi_Shop">
+        <activity
+            android:name=".shoes"
+            android:exported="true" />
+        <activity
+            android:name=".Dress"
+            android:exported="true" />
+        <activity
+            android:name=".pants"
+            android:exported="true" />
+        <activity
+            android:name=".shirt"
+            android:exported="true" />
+        <activity
+            android:name=".danhmuc"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/customborder" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

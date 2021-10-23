@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".danhmuc"
+    android:orientation="vertical"
+    android:background="@color/backgr_1">
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/backgr_1"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="85dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/back" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/lobsterregular"
+            android:gravity="center"
+            android:text="@string/tieude2"
+            android:textColor="@color/cam"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/danhmuc"
+        android:layout_below="@id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/botrondm"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center|left"
+                android:src="@drawable/tshirt" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:paddingLeft="60dp"
+                android:text="Shirt"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center|right"
+                android:src="@drawable/next" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/duongke" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center|left"
+                android:src="@drawable/jeans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:paddingLeft="60dp"
+                android:text="Pants"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center|right"
+                android:src="@drawable/next" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/duongke" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center|left"
+                android:src="@drawable/dress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:paddingLeft="60dp"
+                android:text="Dress"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center|right"
+                android:src="@drawable/next" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/duongke" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center|left"
+                android:src="@drawable/shoe" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:paddingLeft="60dp"
+                android:text="Shoes"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center|right"
+                android:src="@drawable/next" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/duongke" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:src="@drawable/anhdm" />
+    </LinearLayout>
+</RelativeLayout>
