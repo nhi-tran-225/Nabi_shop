@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timkiem"
+    android:orientation="vertical"
+    android:background="@color/backgr_1">
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:background="#ECF0F1"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:id="@+id/back"
+            android:layout_width="85dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/back" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/btntimkiem"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/timkiem">
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/tim"
+                android:layout_gravity="center|left" />
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Search product"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:textColor="#929090"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/duongke"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/header"
+        android:layout_gravity="center"
+        android:background="#979797" />
+
+    <FrameLayout
+        android:id="@+id/so1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/header"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/khung">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|left"
+            android:src="@drawable/clock" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="50dp"
+            android:text="dr martens holly"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/close" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/so2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/so1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/khung">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|left"
+            android:src="@drawable/clock" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="50dp"
+            android:text="air jordan 1"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/close" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/so3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/so2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/khung">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|left"
+            android:src="@drawable/clock" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="50dp"
+            android:text="Long Swing Dress"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/close" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/so4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/so3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/khung">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|left"
+            android:src="@drawable/clock" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="50dp"
+            android:text="Office trousers"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/close" />
+    </FrameLayout>
+</RelativeLayout>

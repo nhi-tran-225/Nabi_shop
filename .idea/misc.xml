@@ -3,19 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Andoid/MyApplication/app/src/main/res/drawable/button_bg.xml" value="0.25833333333333336" />
-        <entry key="..\:/Andoid/MyApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
-        <entry key="..\:/Andoid/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
-        <entry key="..\:/MyApplication/app/src/main/res/drawable/bogoc.xml" value="0.2755208333333333" />
-        <entry key="..\:/MyApplication/app/src/main/res/drawable/btn.xml" value="0.2755208333333333" />
-        <entry key="..\:/MyApplication/app/src/main/res/drawable/color.xml" value="0.2755208333333333" />
-        <entry key="..\:/MyApplication/app/src/main/res/drawable/line.xml" value="0.2755208333333333" />
-        <entry key="..\:/MyApplication/app/src/main/res/drawable/payment1.xml" value="0.2755208333333333" />
-        <entry key="..\:/MyApplication/app/src/main/res/drawable/payment2.xml" value="0.2755208333333333" />
-        <entry key="..\:/MyApplication/app/src/main/res/drawable/wishlist.xml" value="0.2755208333333333" />
-        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_payment.xml" value="0.24818840579710144" />
-        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_wishlist.xml" value="0.2" />
+        <entry key="..\:/NABI/login/app/src/main/res/drawable/botron_btn.xml" value="0.17357859531772576" />
+        <entry key="..\:/NABI/login/app/src/main/res/drawable/botron_text.xml" value="0.17357859531772576" />
+        <entry key="..\:/NABI/login/app/src/main/res/drawable/circle.xml" value="0.17533783783783785" />
+        <entry key="..\:/NABI/login/app/src/main/res/drawable/img.xml" value="0.17533783783783785" />
+        <entry key="..\:/NABI/login/app/src/main/res/drawable/img2.xml" value="0.17533783783783785" />
+        <entry key="..\:/NABI/login/app/src/main/res/drawable/img3.xml" value="0.17533783783783785" />
+        <entry key="..\:/NABI/login/app/src/main/res/drawable/khung.xml" value="0.17533783783783785" />
+        <entry key="..\:/NABI/login/app/src/main/res/drawable/muiten.xml" value="0.17357859531772576" />
+        <entry key="..\:/NABI/login/app/src/main/res/drawable/timkiem.xml" value="0.17533783783783785" />
+        <entry key="..\:/NABI/login/app/src/main/res/font/font.xml" value="0.1826086956521739" />
+        <entry key="..\:/NABI/login/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/NABI/login/app/src/main/res/layout/activity_timkiem.xml" value="0.16486486486486487" />
+        <entry key="..\:/NABI/login/app/src/main/res/layout/timkiem.xml" value="0.16486486486486487" />
       </map>
     </option>
   </component>

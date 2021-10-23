@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">login</string>
+    <string name="forgot"><u><b>Forgot password?</b></u></string>
+    <string name="haveaccount"></string>
 </resources>
